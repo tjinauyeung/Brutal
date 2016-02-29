@@ -9,24 +9,26 @@ before_action :set_building
 
   def create
     review = Review.new(review_params)
-    @building = review.building
+    review.building = @building
 
     if review.save
       render json: {review: review}
     else
       render json: {
-        message: "Sorry, review could not be created",
+        message: "Review could not be created",
         errors: review.errors
       }
     end
   end
 
   def update
-    if review = @building.reviews.find(params[:id])
-    render json:{review: review.update(task_params)}
+    review = @building.reviews.find(params[:id])
+
+    if review.update(review_params)
+      render json:{review: review}
     else
       render json: {
-        message:"Sorry, review could not be edited",
+        message: "Review could not be edited.",
         errors: review.errors
       }
     end
@@ -34,9 +36,14 @@ before_action :set_building
 
   def destroy
     review = @building.reviews.find(params[:id])
-    task.destroy
-    render json: { destroyed: true }
+
+    if review.destroy 
+      render json: { review: nil }
+    else 
+      render json: { message: "Review could not be destroyed."}
+    end
   end
+
   private
 
   def set_building
@@ -44,7 +51,7 @@ before_action :set_building
   end
 
   def review_params
-    params.require(:review).permit(:name, :description, :building_id)
+    params.require(:review).permit(:name, :description, :rating, :building_id)
   end
-
+  
 end
