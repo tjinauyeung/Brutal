@@ -3,7 +3,7 @@ before_action :set_building
   
   def index
     render json:{
-      reviews: @building.review.order(id: :desc)
+      reviews: @building.reviews.order(id: :desc)
     }
   end
 
