@@ -1,17 +1,21 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: brutal_db
+  database: 
   pool: 5
+  username: user
+  password: password
 
 test:
   adapter: postgresql
   encoding: unicode
-  database: brutal_db
+  database: 
   pool: 5 
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: brutal_db
+  database: 
   pool: 5
+  username: user
+  password: password
