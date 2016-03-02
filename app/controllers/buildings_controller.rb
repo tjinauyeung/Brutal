@@ -15,7 +15,7 @@ class BuildingsController < ApplicationController
   end
 
   def create
-    if building = Building.create(project_params)
+    if building = Building.create(building_params)
       render json: { building: building }
     else
       render json: {
