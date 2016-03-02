@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'buildings#index'
-  resources :buildings, only: [:create, :update, :destroy, :show] do 
+  resources :buildings, only: [:index, :create, :update, :destroy, :show] do 
     resources :reviews, only: [:index, :create, :update, :destroy]
   end
 
