@@ -2,7 +2,7 @@ class BuildingsController < ApplicationController
 
   def index
     render json:{
-      buildings: Building.order(id: :asc)
+      buildings: Building.order(id: :desc)
     }
   end
 

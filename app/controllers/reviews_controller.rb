@@ -53,5 +53,5 @@ before_action :set_building
   def review_params
     params.require(:review).permit(:name, :description, :rating, :building_id)
   end
-  
+
 end
