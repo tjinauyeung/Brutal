@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Building.create([
-	{ name: 'De Rotterdam', location: 'Rotterdam, NL', build_year: '2013', architect: 'OMA' },
+	{ name: 'De Rotterdam', location: 'Rotterdam, NL', build_year: '2013', architect: 'OMA', image: "http://images.nrc.nl/sk0jmPCtPXMhlcECedf6RAMePDI=/1280x/s3/static.nrc.nl/images/w1920/1912amsbijlmer2.jpg" },
 	{ name: 'Wolff Museum', location: 'Zurich, CH', build_year: '2005', architect: 'Zaha Hadid' }])
 
 Review.create([
