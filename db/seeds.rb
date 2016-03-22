@@ -27,7 +27,7 @@ Building.create([
 
 	{ name: 'Washington Hilton Hotel', location: 'Washington, US', build_year: '', architect: '', image: "https://c2.staticflickr.com/8/7087/7294765280_ed5cb79ec2_b.jpg" },
 
-	{ name: 'College Life Insurance Company Headquarters,', location: 'Indianapolis, US', build_year: '', architect: '', image: "http://40.media.tumblr.com/tumblr_lmkzckZROt1qzglyyo1_1280.jpg" },
+	{ name: 'College Life Insurance Company Headquarters', location: 'Indianapolis, US', build_year: '', architect: '', image: "http://40.media.tumblr.com/tumblr_lmkzckZROt1qzglyyo1_1280.jpg" },
 
 	{ name: '', location: '', build_year: '', architect: '', image: "https://s-media-cache-ak0.pinimg.com/736x/49/84/82/4984825e618fb70294317917f700aa54.jpg" },
 
@@ -35,4 +35,6 @@ Building.create([
 
 Review.create([
 	{ name: 'Tjin Au Yeung', description: 'This building is great!', rating: 5, building_id: 1 },
-	{ name: 'Liset van der Kolk', description: 'I am loving the architecture!', rating: 5, building_id: 2 }])
+	{ name: 'Wouter', description: 'I love the use of concrete', rating: 5, building_id: 1 },
+	{ name: 'Liset van der Kolk', description: 'I am loving the architecture!', rating: 5, building_id: 2 },
+	{ name: 'Nanne Brouwer', description: 'It is truely amazing', rating: 5, building_id: 2 }])
