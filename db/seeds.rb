@@ -38,3 +38,7 @@ Review.create([
 	{ name: 'Wouter', description: 'I love the use of concrete', rating: 5, building_id: 1 },
 	{ name: 'Liset van der Kolk', description: 'I am loving the architecture!', rating: 5, building_id: 2 },
 	{ name: 'Nanne Brouwer', description: 'It is truely amazing', rating: 5, building_id: 2 }])
+
+Architect.create([
+	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
+	{ name: 'Oscar Niemeyer', description: 'Brazilian architect with a histroy in fine arts.', image: 'https://denigirl.files.wordpress.com/2012/12/oscar-niemeyer.jpg' }])
