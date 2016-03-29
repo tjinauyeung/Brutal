@@ -41,4 +41,10 @@ Review.create([
 
 Architect.create([
 	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
+	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
+	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
+	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
+	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
+	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
+	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
 	{ name: 'Oscar Niemeyer', description: 'Brazilian architect with a histroy in fine arts.', image: 'https://denigirl.files.wordpress.com/2012/12/oscar-niemeyer.jpg' }])
