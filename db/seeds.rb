@@ -43,8 +43,8 @@ Architect.create([
 	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://nemolighting.com/files/201403/31/le-corbusier-4.jpg' },
 	{ name: 'Rem Koolhaas', description: 'A dutch architect known for his pragmatism', image: 'https://www.vn.nl/wp-content/uploads/sites/3/2014/06/92b0e2bb-84aa-469c-80ce-0d7fda0f6129_koolhaas-midden.jpg' },
 	{ name: 'Daniel Liebeskind', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://cdn.neonsky.com/4db89e34d3312/images/Portrait_Daniel_Libeskind_001_-1.jpg' },
-	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
-	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
-	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
-	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
+	{ name: 'Renzo Piano', description: 'Famous for centre de Pompidou and ofcourse NEMO', image: 'http://www.ed-anthony.com/wp-content/uploads/2014/05/Renzo-Piano_sized1.jpg' },
+	{ name: 'Zaha Hadid', description: 'An architect with Persian roots and a preference for flowing forms', image: 'http://www.vogue.com/wp-content/uploads/2011/09/img-zaha-hadid_115546987877.jpg' },
+	{ name: 'Wang Shu', description: 'A Chinese architect famous for the china pavillion during the world expo 2010', image: 'http://static.toky.com/wordpress/wp-content/uploads/2012/03/wang-shu-portrait1.jpg' },
+	{ name: 'Mies van der Rohe', description: 'Barcelone Pavillion, nuff said.', image: 'http://www.pamono.com/media/library/cache/2014/02/MiesVanDerRohe_Knoll_954_high-1920x1200.jpg' },
 	{ name: 'Oscar Niemeyer', description: 'Brazilian architect with a histroy in fine arts.', image: 'https://denigirl.files.wordpress.com/2012/12/oscar-niemeyer.jpg' }])
