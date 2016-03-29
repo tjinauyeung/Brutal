@@ -40,9 +40,9 @@ Review.create([
 	{ name: 'Nanne Brouwer', description: 'It is truely amazing', rating: 5, building_id: 2 }])
 
 Architect.create([
-	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
-	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
-	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
+	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://nemolighting.com/files/201403/31/le-corbusier-4.jpg' },
+	{ name: 'Rem Koolhaas', description: 'A dutch architect known for his pragmatism', image: 'https://www.vn.nl/wp-content/uploads/sites/3/2014/06/92b0e2bb-84aa-469c-80ce-0d7fda0f6129_koolhaas-midden.jpg' },
+	{ name: 'Daniel Liebeskind', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://cdn.neonsky.com/4db89e34d3312/images/Portrait_Daniel_Libeskind_001_-1.jpg' },
 	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
 	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
 	{ name: 'Le Corbusier', description: 'A Swiss born French architect famous for his modern approach.', image: 'http://www.interieurdesigner.be/frontend/files/blog/images/source/le-corbusier.jpg' },
